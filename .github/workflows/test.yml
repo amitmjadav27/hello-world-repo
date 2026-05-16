@@ -9,11 +9,14 @@ jobs:
         - name: Checkout Repo
           uses: actions/checkout@v4
 
-        - name: Welcome Message
-          run: echo "Welcome to Github Actions"
+     #   - name: Multiline command 
+           run: 
+           |
+            echo "Welcome to Github Actions-Multiline commands"
+            ls -ltr
+            cat README.md
+     #   - name: List files
+     #     run: ls -al
         
-        - name: List files
-          run: ls -al
-        
-        - name: Read file
-          run: cat README.md
+     #   - name: Read file
+     #     run: cat README.md
