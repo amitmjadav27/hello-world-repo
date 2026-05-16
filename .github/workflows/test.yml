@@ -9,9 +9,8 @@ jobs:
         - name: Checkout Repo
           uses: actions/checkout@v4
 
-     #   - name: Multiline command 
-           run: 
-           |
+        - name: Multiline command 
+          run: |
             echo "Welcome to Github Actions-Multiline commands"
             ls -ltr
             cat README.md
