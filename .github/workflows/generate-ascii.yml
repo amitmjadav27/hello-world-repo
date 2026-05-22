@@ -14,6 +14,7 @@ jobs:
 
         - name: Execute shell script
           run: ./ascii-script.sh
+          
         # - name: install cowsay program
         #   run: sudo apt-get install cowsay -y    
 
